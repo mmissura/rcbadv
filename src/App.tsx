@@ -5,16 +5,12 @@ export const App = () => {
   return (
     <div className='w-full'>
 
-
-      
         <div className='flex justify-center items-center'>
           <img src={Logo} className='xl:w-2/3 2xl:w-2/3 lg:w-2/3
           xl:my-20 2xl:my-20 lg:my-10 rounded-xl' 
           alt='RCB Advogados' 
           title='RCB Advogados' />
         </div>
-
-      
 
       <div className='text-xl text-center 2xl:text-3xl xl:text-3xl lg:text-3xl 
       my-10 mx-auto 2xl:w-2/3 xl:w-2/3 lg:w-2/3 w-full font-bold uppercase'>
@@ -29,7 +25,7 @@ export const App = () => {
             href="https://wa.me/5519971413322"
             target="_blank"
             className="bg-green-700 text-white 
-            text-center py-3 px-20 text-2xl
+            text-center py-3 px-20 text-2xl my-10
             flex justify-center items-center gap-3 rounded-xl"
           >
 
