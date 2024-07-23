@@ -20,6 +20,7 @@ export const App = () => {
             text-center py-3 px-20 text-2xl my-10
             flex justify-center items-center gap-3 rounded-xl"
         >
+          <p>Entre em contato</p>
 
           <BsWhatsapp /> Fale conosco
         </a>
