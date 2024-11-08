@@ -41,7 +41,14 @@ export const App = () => {
 
 
 
-        <p className='mt-20 text-white p-8'>Copyright © 2024 Rosolem, Cabianca & Bonelli Sociedade de Advogados. CNPJ 26.205.471/0001-20. Desenvolvido por Missura Networks.</p>
+        <p className='mt-20 text-white p-8'>Copyright © 2024 Rosolem, Cabianca & Bonelli Sociedade de Advogados. CNPJ 26.205.471/0001-20. Desenvolvido por<a
+          href='http://missura.com.br'
+          target='_blank'
+          className='text-white hover:text-black'
+        >
+          {' '}
+          Missura Networks.
+        </a></p>
       </footer>
     </div>
   );
